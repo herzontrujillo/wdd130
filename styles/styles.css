@@ -1,7 +1,7 @@
 
 *{
-    margin: 0.;
-    padding: 0.;
+    margin: 1px;
+    padding: .9px;
     box-sizing: border-box;
 }
 
@@ -22,7 +22,7 @@ h1{
 }
 
 main img{
-    width: 200px;
+    width: 150px;
     height: auto;
     border: 1px solid rgb(191, 201, 208);
     padding: 2px;
@@ -47,15 +47,15 @@ aside{
 
 aside h2{
     position: absolute;
-    top: 165px;
-    left: 80px;
+    top: 50px;
+    left: 200px;
 }
 
 aside img{
     position: relative;
-    width: 200px;
+    width: 156px;
     height: auto;
-    left: 70px;
+    left:15px;
 }
 
 footer{
