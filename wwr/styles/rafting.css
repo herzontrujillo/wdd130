@@ -1,0 +1,136 @@
+@import url(https://fonts.google.com/specimen/Poetsen+One);
+@import url(https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap);
+
+
+nav {
+    padding: 10px;
+    text-align: left;
+}
+
+:root {
+    --primary-color: #0f1b41;
+    --secondary-color: #321b05;
+    --accent1-color: #f0f0e0a9;
+    --accent2-color: #192121;
+
+    --heading-font: url(https://fonts.google.com/specimen/Poetsen+One);
+    --paragraph-font: url(https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap); 
+    
+    --nav-background-color: #d8e5e9;
+    --nav-link-color: #424de9;
+}
+
+body {
+    background: var(--accent1-color);
+    max-width: 900px;
+    padding: 20px;
+} 
+
+main {
+    max-width: 800rem;
+    margin: 2rem auto;
+    font-family: var(--paragraph-font);
+}
+
+.hero { 
+    margin: auto;
+    position: absolute;    
+}
+
+.hero image {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+h1 {
+    position: absolute;
+    width: 20re;
+    padding: 25px;
+    left: 20px;
+    top: 20px;
+    font-size: 3rem;
+    color: var(--primary-color); 
+}
+
+.happy {
+    position: absolute;
+    bottom: 120px;
+    right: 25px;
+    background:rgba(182, 219, 236, 0.3);
+    padding: 10px;
+    font-family: var(--paragraph-font);
+    font-size: 25px;
+}
+
+.happy img {
+    width: 150px;
+    height: auto;
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(138, 16, 16);
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.happy p {
+    color: var(--secondary-color);
+    font-size: 25px;
+}
+
+h2 { 
+    position: relative;
+    color: var(--primary-color);
+    top: 30rem;
+}
+
+section p {
+    position: relative;
+    color: var(--secondary-color);
+    top: 30rem;
+}
+
+.section-adventure{
+    color: var(--primary-color);
+}
+
+.pictures {
+    margin: 25px 50px;
+    height: auto;
+    max-width: 100%;
+    top: 50rem;
+}
+
+.image1 {
+    position: relative;
+    top: 30rem;
+   
+}
+
+.image2 {
+    position: relative ;
+    top: 43rem;
+    left: -17rem;   
+}
+
+.image3 {
+    position: relative;
+    top: 56rem;
+    left: -34rem;
+}
+
+.image4 {
+    position: relative;
+    top: 42rem;
+    left:-80;
+}
+
+.image5 {
+    position: relative;
+    top: 69rem;
+    left: -17rem;
+}
+
+footer{
+    margin-top: 70rem;
+    border-top: 1.5px solid #333;
+}
