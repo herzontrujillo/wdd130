@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap);
+
 
 body {
     font-family: var(--paragraph-font);
@@ -13,8 +13,8 @@ body {
     --accent1-color: #b3bebc;
     --accent2-color: #5b8692;
 
-    --heading-font:'@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap'); ', serif;
-    --paragraph-font:'@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap'); ', serif;
+    --heading-font: arial;
+    --paragraph-font: sans-serif;
     
     --nav-background-color: #d8e5e9;
     --nav-link-color: #424de9;
