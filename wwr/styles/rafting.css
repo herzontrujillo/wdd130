@@ -13,8 +13,8 @@ nav {
     --accent1-color: #f0f0e0a9;
     --accent2-color: #192121;
 
-    --heading-font: url(https://fonts.google.com/specimen/Poetsen+One);
-    --paragraph-font: url(https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap); 
+    --heading-font: arial;
+    --paragraph-font: helvetica;
     
     --nav-background-color: #d8e5e9;
     --nav-link-color: #424de9;
