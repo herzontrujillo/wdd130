@@ -1,15 +1,12 @@
-@import url(https://fonts.google.com/specimen/Poetsen+One);
-@import url(https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap);
-
-
-nav {
-    padding: 10px;
-    text-align: left;
+main {
+    max-width: 800rem;
+    margin: 0 auto;
+    font-family: var(--paragraph-font);
 }
 
 :root {
-    --primary-color: #0f1b41;
-    --secondary-color: #321b05;
+    --primary-color: #971212;
+    --secondary-color: #20367d;
     --accent1-color: #f0f0e0a9;
     --accent2-color: #192121;
 
@@ -20,117 +17,167 @@ nav {
     --nav-link-color: #424de9;
 }
 
-body {
-    background: var(--accent1-color);
-    max-width: 900px;
-    padding: 20px;
-} 
-
-main {
-    max-width: 800rem;
-    margin: 2rem auto;
-    font-family: var(--paragraph-font);
+.logo {
+    margin-left: 304px;
 }
+
+nav {
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    text-align: right;
+    margin: 1rem auto;
+    padding: 25px;
+}
+
+.navigation{
+    justify-content: space-between;
+    align-content: space-around;
+    display: flex;
+    flex-flow: row;
+    flex: 1 1 100%;
+    list-style: none;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 10px 30px;
+    font-size: 4rem;
+}
+
 
 .hero { 
-    margin: auto;
-    position: absolute;    
+    display: flex;
+    flex: 1 1 100%;
+    align-content: space-around;
+    flex-flow: row;
 }
 
-.hero image {
-    width: auto;
-    height: auto;
-    object-fit: cover;
-}
-
-h1 {
+.hero h1 {
     position: absolute;
-    width: 20re;
-    padding: 25px;
-    left: 20px;
-    top: 20px;
-    font-size: 3rem;
-    color: var(--primary-color); 
+    top: 60% ;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color:  #000;
+    background-color: #bcbedc;
+    border-radius: 2px;
+    border: 1px solid black;
+    width: 500px;
+    height: 20px;
+    text-align: center;
 }
 
-.happy {
-    position: absolute;
-    bottom: 120px;
-    right: 25px;
-    background:rgba(182, 219, 236, 0.3);
-    padding: 10px;
-    font-family: var(--paragraph-font);
-    font-size: 25px;
+.hero img {
+    display: block;
+    width: 100%;
+    height: 500px;
 }
 
-.happy img {
-    width: 150px;
-    height: auto;
-    padding: 2px;
-    box-shadow: 0 0 30px rgb(138, 16, 16);
+.hero article img {
+    height: 119px;
+    width: 167px;    
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin-left: 20px;
 }
 
-.happy p {
-    color: var(--secondary-color);
-    font-size: 25px;
+.hero article {
+    height: 129px;
+    position: absolute;
+    top:66%;
+    left: 37%;
+    transform: translate(-50%);
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+    width: 64%;
 }
 
-h2 { 
-    position: relative;
-    color: var(--primary-color);
-    top: 30rem;
+.hystory {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
-section p {
-    position: relative;
-    color: var(--secondary-color);
-    top: 30rem;
+.hystory p{
+    grid-column:1/2;
+    text-align: left;
+}
+.hystory img{
+    grid-column: 2/3;
 }
 
-.section-adventure{
-    color: var(--primary-color);
+.hystory p second {
+    grid-template-columns: 3/4;
 }
 
-.pictures {
-    margin: 25px 50px;
-    height: auto;
-    max-width: 100%;
-    top: 50rem;
+.hystory h2{
+    grid-column: 2/3;
+    text-align: center;
 }
 
-.image1 {
-    position: relative;
-    top: 30rem;
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    
+
 }
 
-.image2 {
-    position: relative ;
-    top: 43rem;
-    left: -17rem;   
+.images img{
+    width: 200px;
+    height: 150px;
 }
 
-.image3 {
-    position: relative;
-    top: 56rem;
-    left: -34rem;
+
+.images .image1{
+    grid-column: 1/2;
+}
+.images .image2{
+    grid-column: 2/3;
+}.images .image3{
+    grid-column: 3/4;
+}.images .image4{
+    grid-column: 4/5;
+}.images .image5{
+    grid-column: 5/6;
 }
 
-.image4 {
-    position: relative;
-    top: 42rem;
-    left:-80;
+h2 {
+    text-align: center;
+    margin: 10px 10px 5px 5px;
 }
 
-.image5 {
-    position: relative;
-    top: 69rem;
-    left: -17rem;
+
+p {
+    line-height: 1.5;
 }
+
+.adventure {
+    background-color: aqua;
+    color: var(--primary-color);
+    padding: 3rem;
+}
+
+
 
 footer{
-    margin-top: 70rem;
+    margin-top: 7rem;
     border-top: 1.5px solid #333;
 }
+
+nav .sm{
+    width: 20rem;
+}
+
+
