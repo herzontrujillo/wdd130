@@ -1,0 +1,108 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #443228;
+    background: #f3f6f7;
+}
+
+header{
+    width: 700px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    margin: 1rem;
+    text-align: center;
+    font-family: 'Georgia', Times;
+    font-size:2rem;
+}
+
+form {
+    width: 800px;
+    margin: auto;
+    padding: 1.5rem;
+    border:2px solid#000 ;
+    border-radius:10px;
+    background-color: rgb(252, 255, 240);
+    display: grid;
+
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    padding: 1rem;
+    border: 1px solid#000;
+    margin: 1.5rem;
+}
+
+legend {
+    color: rgb(0, 0, 0);
+    padding: 1.5px;
+    font-size: 40px;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input{
+    font-size: 2px;
+    padding: 25px;
+}
+
+input[type="checkbox"] {
+    width: 40px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    width: 40rem;
+    color: #000;
+    background-color: rgb(227, 234, 227);
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 2rem;
+}
+
+botom:hover {
+    background-color: #443228;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    color: #000;
+    text-align: center;
+    border-top: 1.5px solid #000;
+}
+ .form-item {
+    display: grid;
+    align-items: center;
+ }
+
+ .column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem;
+ }
+
+ .column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem;
+ }
+
+
