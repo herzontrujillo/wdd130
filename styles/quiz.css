@@ -1,0 +1,93 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: hsl(224, 35%, 33%);
+    background: #ebf6fa;
+}
+
+header{
+    width: 700px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    margin: 1rem;
+    text-align: center;
+    font-family: 'Georgia', Times;
+    font-size:2.5rem;
+}
+
+form {
+    width: 800px;
+    margin: auto;
+    padding: 1.5rem;
+    border:3px solid#000 ;
+    border-radius:10px;
+    background-color: rgb(254, 254, 248);
+    display: grid;
+
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    padding: 1rem;
+    border: 1px solid#000000;
+    margin: 1.5rem;
+    border-radius: 5px;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+button {
+    width: 45rem;
+    color:hsl(224, 35%, 33%);
+    background-color: rgb(227, 234, 227);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+botom:hover {
+    background-color: #443228;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    color: #000;
+    text-align: center;
+    border-top: 1.5px solid #000;
+}
+ .form-item {
+    display: grid;
+    align-items: center;
+ }
+
+ .margin-box {
+    margin: 1.5rem;
+    background-color: rgba(193, 196, 244, 0.639);
+    text-align: center;
+    display: block;
+    font-size: 1.5rem;
+ }
+
