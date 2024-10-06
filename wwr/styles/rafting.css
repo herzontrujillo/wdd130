@@ -1,7 +1,6 @@
 main {
     max-width: 800rem;
     margin: 0 auto;
-    font-family: var(--paragraph-font);
 }
 
 :root {
@@ -16,7 +15,6 @@ main {
 
 nav {
     text-align: center;
-    display: box;
     justify-content: space-around;
     font-family:var(--paragraph-font);
     background-color: #f6e9e9;
@@ -56,11 +54,11 @@ nav a {
     color: #000;
     background-color: var(--primary-color);
     border-radius: 2px;
-    border: 1px --secondary-color;
-    width: 50%;
-    height: 75px;
+    border: 1px #355655;
+    width: 120rem;
+    height: auto;
     text-align: center;
-}
+} 
 
 .hero img {
     display: block;
@@ -70,9 +68,9 @@ nav a {
 
 .hero article img {
     height: 119px;
-    width: 167px;    
+    width: 170px;    
     float: right;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .hero article {
@@ -87,11 +85,6 @@ nav a {
     padding: 5px;
     border-radius: 5px;
     width: 64%;
-}
-
-.hystory {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 h2 {
