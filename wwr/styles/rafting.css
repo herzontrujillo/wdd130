@@ -18,8 +18,7 @@ nav {
     text-align: right;
     display: flex;
     justify-content: space-around;
-    font-family:var(--paragraph-font)--accent1-color ;
-    
+    font-family:var(--paragraph-font);
 }
 
 header{
