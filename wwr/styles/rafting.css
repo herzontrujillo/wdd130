@@ -1,36 +1,30 @@
-main {
-    max-width: 800rem;
-    margin: 0 auto;
-}
-
 :root {
     --primary-color: #D6D6D6D6;
     --secondary-color: #B9CAC0;
     --accent1-color: #9DDAFB;
-    --accent2-color: #A3C4DD;
+    --accent2-color: #d2eaf1;
 
     --heading-font: "Roboto", system-ui;
     --paragraph-font: helvetica;
 }
 
-nav {
-    text-align: center;
-    justify-content: space-around;
-    font-family:var(--paragraph-font);
-    background-color: #f6e9e9;
-    padding: 15px;
+body {
+    margin: 0 auto;
+    max-width: 800rem;
+    font-family: "Roboto", serif;
+    color: #000;
+    background-color: var(--primary-color);  
 }
 
-header{
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    align-items: center;
-    border-bottom: 1px solid #000;
-    text-align: right;
-    margin: 1rem auto;
-    padding: 25px;
- }   
-
+nav {
+    text-align: center;
+    font-family:var(--paragraph-font);
+    background-color: var(--accent2-color);
+    padding: 15px;
+    text-decoration: none;
+    color: #19294f;
+}
+ 
 nav a {
     text-decoration: none;
     color: #19294f;
@@ -38,9 +32,18 @@ nav a {
     font-size: 50px;
 }
 
+header {
+    display: flex;
+    grid-template-columns: 1fr 4fr;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    margin: 1rem auto;
+    padding: 25px;
+}   
 
 .hero { 
-    display: block;
+    position: relative;
     align-content: space-around;
     position: relative;
 }
@@ -92,6 +95,7 @@ h2 {
 }
 
 footer{
+    text-align: center;
     border-top: 1.5px solid #000;
     margin-top: 3rem;
 }
