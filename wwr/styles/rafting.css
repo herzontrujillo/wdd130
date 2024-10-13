@@ -1,3 +1,5 @@
+
+
 :root {
     --primary-color: #D6D6D6D6;
     --secondary-color: #B9CAC0;
@@ -89,11 +91,47 @@ header {
     width: 64%;
 }
 
-h2 {
-    text-align: center;
-    margin: 10px 10px 5px 5px;
+.history{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
+.history p{
+    grid-column: 1/2;
+    text-align: left;
+}
+
+.history img{
+    grid-column: 2/3;
+}
+.history p second{
+    grid-template-columns: 3/4;
+}
+
+
+.history h2 {
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.images{
+    display: grid;
+    padding: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--accent2-color);
+    text-align: center;
+}
+
+.images img{
+    width: auto;
+    max-height: 100px;
+}
+
+.images h2{
+    grid-column: 1/6;
+}
 footer{
     text-align: center;
     border-top: 1.5px solid #000;
